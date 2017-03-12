@@ -5,9 +5,17 @@ Exercise on reading a file in loop
 
 You need to create a new folder inside your exercise repository and name it `files`, then with Ruby you have to:
 
-1. Create a file and name it `hello.txt`
+1. Create a file inside that folder and name it `hello.txt`
 2. Print `Hello` 15 times in 15 different lines
 3. Close and save the file
+
+The file should look like:
+
+```
+Hello
+Hello
+...15 times
+```
 
 Now double check the content of that file, if it has the right content, then here you go.
 
@@ -18,7 +26,5 @@ You need to read the file you created in the previous exercise (`hello.txt`), th
 ```
 Hello World!
 Hello World!
-...
+...15 times
 ```
-
-15 times.
