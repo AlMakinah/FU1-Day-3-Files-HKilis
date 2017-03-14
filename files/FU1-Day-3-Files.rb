@@ -7,6 +7,9 @@
 
 #Exercise 1
 def write_str_to_file(file_name, string_tbw, number_of_times)
+	if File.exist?(filename)
+		File.delete(file_name)
+	end
 	File.open(file_name, 'w') {|f| number_of_times.times{f.write("#{string_tbw} \n")} }
 end
 
